@@ -2,7 +2,7 @@ import "./register.css"
 import React, { useState } from "react";
 import axiosInstance from "../../axios";
 import { NavLink, useNavigate } from "react-router-dom";
-import { IoLogoGoogle, IoLogoFacebook } from "react-icons/io";
+
 
 export default function Register() {
   const navigate = useNavigate();

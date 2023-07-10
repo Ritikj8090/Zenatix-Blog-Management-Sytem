@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import "./sidebar.css";
-import axiosInstance from "../../axios";
-import { useEffect, useState } from "react";
 
 export default function Sidebar(props) {
     

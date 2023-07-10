@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axiosInstance from '../axios';
-import { Card, CardContent, CardMedia, Container, Grid, Link, Typography } from '@mui/material';
+import { Card, CardContent, Container, Grid, Typography } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
 

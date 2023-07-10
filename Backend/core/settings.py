@@ -146,9 +146,15 @@ REST_FRAMEWORK = {
 }
 
 # specific machine can only connect 
+ALLOWED_HOSTS = ['*']
+
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    'http://localhost',
+    'http://127.0.0.1',
+    'http://0.0.0.0',
 ]
+
+CORS_ALLOW_CREDENTIALS = True
 
 #custom user model
 AUTH_USER_MODEL = "users.NewUser"

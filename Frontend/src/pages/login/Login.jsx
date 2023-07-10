@@ -2,7 +2,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import "./login.css";
 import { useState } from "react";
 import axiosInstance from '../../axios'
-import { IoLogoGoogle, IoLogoFacebook } from "react-icons/io";
+
 
 export default function Login(props) {
  	const navigate = useNavigate();
